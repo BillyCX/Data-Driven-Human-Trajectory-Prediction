@@ -14,7 +14,8 @@ This will create the directory `datasets/<dataset_name>` with train/ val/ and te
 Now you can train a new model by running the script:
 
 ```bash
-python scripts/train.py
+python scripts/train.py --noise_dim 8
+
 ```
 
 By default this will train a model on Zara1, periodically saving checkpoint files `checkpoint_with_model.pt` and `checkpoint_no_model.pt` to the current working directory. The training script has a number of command-line flags that you can use to configure the model architecture, hyperparameters, and input / output settings:
@@ -28,7 +29,7 @@ By default this will train a model on Zara1, periodically saving checkpoint file
 ### Dataset options
 
 - `--dataset_name`: The dataset to use for training; must be either of the five supported datasets. Default is `zara1`.
-- `--delim`: Delimiter used in the files of the dataset. Default is ' '.
+- `--delim`: Delimiter used in the files of the dataset. Default is 'tab'.
 - `--obs_len`: Number of time-steps in input trajectories. Default is 8.
 - `--pred_len`: Number of time-steps in output trajectories. Default is 8.
 - `--loader_num_workers`: The number of background threads to use for data loading. Default is 4.
