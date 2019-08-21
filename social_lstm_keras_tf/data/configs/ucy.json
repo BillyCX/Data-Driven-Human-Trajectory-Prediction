@@ -1,13 +1,13 @@
 {
-    "n_epochs": 10,
+    "n_epochs": 6,
     "batch_size": 1,
-    "obs_len": 4,
-    "pred_len": 6,
+    "obs_len": 6,
+    "pred_len":12,
     "max_n_peds": 52,
     "n_neighbor_pixels": 32,
     "grid_side": 4,
     "lstm_state_dim": 64,
     "emb_dim": 32,
-    "data_root": "/home/USRlab/Downloads/social_lstm_keras_tf-master/data/datasets",
+    "data_root": "/home/USRlab/Downloads/Data-Driven-Human-trajectory-prediction-master/social_lstm_keras_tf/data/datasets",
     "test_dataset_kind": "ucy"
 }

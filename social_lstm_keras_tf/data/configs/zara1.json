@@ -8,6 +8,6 @@
     "grid_side": 4,
     "lstm_state_dim": 64,
     "emb_dim": 32,
-    "data_root": "/home/USRlab/Downloads/social_lstm_keras_tf-master/data/datasets",
+    "data_root": "/home/USRlab/Downloads/Data-Driven-Human-trajectory-prediction-master/social_lstm_keras_tf/data/datasets",
     "test_dataset_kind": "zara1"
 }
